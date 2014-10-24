@@ -1,0 +1,164 @@
+{
+    "AreaList" : [
+        {
+            "Value" : "20",
+            "Name" : "DOWNTOWN ANCHORAGE"
+        },
+        {
+            "Value" : "26",
+            "Name" : "HUFFMAN"
+        },
+        {
+            "Value" : "19",
+            "Name" : "MOUNTAINVIEW"
+        },
+        {
+            "Value" : "18",
+            "Name" : "SPENARD"
+        },
+        {
+            "Value" : "15",
+            "Name" : "ELMENDORF"
+        },
+        {
+            "Value" : "14",
+            "Name" : "EAGLE RIVER/CHUGACH STATE PARK"
+        },
+        {
+            "Value" : "13",
+            "Name" : "FORT RICHARDSON/NORTH EAGLE RIVER"
+        },
+        {
+            "Value" : "12",
+            "Name" : "CHUGIAK/GATEWAY"
+        },
+        {
+            "Value" : "11",
+            "Name" : "GREATER PALMER"
+        },
+        {
+            "Value" : "10",
+            "Name" : "RURAL MATSU"
+        },
+        {
+            "Value" : "9",
+            "Name" : "RICHARDSON HIGHWAY/EAST MATSU"
+        },
+        {
+            "Value" : "8",
+            "Name" : "BIG LAKE/POINT MACKENZIE"
+        },
+        {
+            "Value" : "7",
+            "Name" : "GREATER WASILLA"
+        },
+        {
+            "Value" : "6",
+            "Name" : "EIELSON/DENALI/UPPER YUKON/BORDER REGION"
+        },
+        {
+            "Value" : "5",
+            "Name" : "CHENA RIDGE/AIRPORT"
+        },
+        {
+            "Value" : "4",
+            "Name" : "WESTERN FAIRBANKS"
+        },
+        {
+            "Value" : "3",
+            "Name" : "NORTH POLE/BADGER"
+        },
+        {
+            "Value" : "2",
+            "Name" : "FAIRBANKS/WAINWRIGHT"
+        },
+        {
+            "Value" : "1",
+            "Name" : "DOWNTOWN FAIRBANKS"
+        },
+        {
+            "Value" : "40",
+            "Name" : "ARCTIC"
+        },
+        {
+            "Value" : "39",
+            "Name" : "BERING STRAITS/YUKON DELTA"
+        },
+        {
+            "Value" : "38",
+            "Name" : "LOWER KUSKOKWIM"
+        },
+        {
+            "Value" : "37",
+            "Name" : "BRISTOL BAY/ALEUTIANS/UPPER KUSKOKWIM"
+        },
+        {
+            "Value" : "36",
+            "Name" : "KETCHIKAN/WRANGELL/METLAKATLA/HYDABURG"
+        },
+        {
+            "Value" : "35",
+            "Name" : "SITKA/PETERSBURG"
+        },
+        {
+            "Value" : "34",
+            "Name" : "MENDENHALL VALLEY"
+        },
+        {
+            "Value" : "17",
+            "Name" : "UNIVERSITY"
+        },
+        {
+            "Value" : "16",
+            "Name" : "COLLEGE GATE"
+        },
+        {
+            "Value" : "33",
+            "Name" : "DOWNTOWN JUNEAU/DOUGLAS/HAINES/SKAGWAY"
+        },
+        {
+            "Value" : "32",
+            "Name" : "KODIAK/CORDOVA/SELDOVIA"
+        },
+        {
+            "Value" : "31",
+            "Name" : "HOMER/SOUTH KENAI"
+        },
+        {
+            "Value" : "30",
+            "Name" : "KENAI/SOLDOTNA"
+        },
+        {
+            "Value" : "29",
+            "Name" : "NORTH KENAI"
+        },
+        {
+            "Value" : "28",
+            "Name" : "SOUTH ANCHORAGE"
+        },
+        {
+            "Value" : "27",
+            "Name" : "BASHER"
+        },
+        {
+            "Value" : "21",
+            "Name" : "WEST ANCHORAGE"
+        },
+        {
+            "Value" : "25",
+            "Name" : "ABBOTT"
+        },
+        {
+            "Value" : "24",
+            "Name" : "OCEANVIEW"
+        },
+        {
+            "Value" : "23",
+            "Name" : "TAKU"
+        },
+        {
+            "Value" : "22",
+            "Name" : "SAND LAKE"
+        }
+    ]
+}

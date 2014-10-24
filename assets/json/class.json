@@ -1,0 +1,46 @@
+{
+    "FilterList" : [
+        {
+            "Value" : "1",
+            "Name" : "INTERSTATE",
+            "NumericValue" : 0,
+            "ComparisonOperator" : null
+        },
+        {
+            "Value" : "2",
+            "Name" : "PRINCIPAL ARTERIAL - FREEWAY/EXPRESSWAY",
+            "NumericValue" : 0,
+            "ComparisonOperator" : null
+        },
+        {
+            "Value" : "3",
+            "Name" : "PRINCIPAL ARTERIAL - OTHER",
+            "NumericValue" : 0,
+            "ComparisonOperator" : null
+        },
+        {
+            "Value" : "4",
+            "Name" : "MINOR ARTERIAL",
+            "NumericValue" : 0,
+            "ComparisonOperator" : null
+        },
+        {
+            "Value" : "5",
+            "Name" : "MAJOR COLLECTOR",
+            "NumericValue" : 0,
+            "ComparisonOperator" : null
+        },
+        {
+            "Value" : "6",
+            "Name" : "MINOR COLLECTOR",
+            "NumericValue" : 0,
+            "ComparisonOperator" : null
+        },
+        {
+            "Value" : "7",
+            "Name" : "LOCAL",
+            "NumericValue" : 0,
+            "ComparisonOperator" : null
+        }
+    ]
+}

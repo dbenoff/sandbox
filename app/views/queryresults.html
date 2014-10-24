@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="col-md-6" data-bind="compose: querydescription"></div>
+</div>
+<div class="container">
+    <div class="row">
+        <div style="display: none"  data-bind="visible: configuredTables().length > 0">
+            <div id="tabs" style="display: none">
+                <ul>
+                    <!-- ko foreach: configuredTables -->
+                    <li><a data-bind="attr: { href: '#' + id + '_tab_div' }"><span data-bind="text: title"/></a></li>
+                    <!-- /ko -->
+                </ul>
+                <!-- ko foreach: configuredTables -->
+                <div data-bind="attr: { id: id  + '_tab_div' }">
+                    <table cellpadding="0" cellspacing="0" border="0" id="example1" class="queryResults" width="100%"
+                           data-bind="attr: { id: id + '_table' }"/>
+                </div>
+                <!-- /ko -->
+            </div>
+        </div>
+    </div>
+</div>

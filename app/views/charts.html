@@ -1,0 +1,40 @@
+<div class="container">
+    <div id="chartcontainer" style="display: none"  data-bind="visible: selectedOrder">
+    <div class="form-inline">
+            <select id="selectQuery" class="form-control pull-right"
+                    data-bind="options: graphMetrics,
+                    optionsText: 'name',
+                    optionsValue: 'value',
+                    value: selectedMetric">
+            </select>
+        <label class="col-sm-2 control-label pull-right">Selected measure:</label>
+        <select id="selectOrder" class="form-control pull-right"
+                data-bind="options: levelOrders,
+                    optionsText: 'name',
+                    optionsValue: 'name',
+                    value: selectedOrder">
+        </select>
+        <label class="col-sm-2 control-label pull-right">Summarize By:</label>
+        <a class="btn btn-primary" data-bind="click: print">Print</a>
+    </div>
+
+     <div class="row">
+        <div id="demo"> <div id="tabs">
+                <ul>
+                    <!-- ko foreach: charts -->
+                    <li><a data-bind="attr: { href: '#charttab_' + id }"><span data-bind="text: title"/></a></li>
+                    <!-- /ko -->
+                </ul>
+                <!-- ko foreach: charts -->
+                <div data-bind="attr: { id: 'charttab_' + id }">
+                    <!-- ko foreach: charts -->
+                    <div class="chart-container" data-bind="attr: { id: 'chart_' + id }"
+                         style="width: 800px; height: 400px; margin: 0 auto"></div>
+                    <!-- /ko -->
+                </div>
+                <!-- /ko -->
+            </div>
+        </div>
+    </div>
+    </div>
+</div>

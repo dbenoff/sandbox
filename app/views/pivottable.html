@@ -1,0 +1,44 @@
+<style type="text/css">
+    <!--
+
+    @media print {
+        .noprint {
+            display: none;
+        }
+    }
+
+</style>
+<div class="container">
+    <div id="reportcontainer" style="display: none"  data-bind="visible: selectedOrder">
+        <div class="row">
+            <div id="demo">
+                <div class="form-inline">
+                    <select id="selectOrder" class="form-control pull-right"
+                            data-bind="options: levelOrders,
+                        optionsText: 'name',
+                        optionsValue: 'name',
+                        value: selectedOrder">
+                    </select>
+                    <label class="col-sm-2 control-label pull-right">Summarize By:</label>
+                    <a class="btn btn-primary" data-bind="click: print">Print</a>
+                </div>
+
+                <div id="tabs" style="display: none">
+                    <ul>
+                        <!-- ko foreach: pivotTables -->
+                        <li><a data-bind="attr: { href: '#' + id }"><span data-bind="text: title"/></a></li>
+                        <!-- /ko -->
+                    </ul>
+                    <!-- ko foreach: pivotTables -->
+                    <div class="report-container" data-bind="attr: { id: id }">
+                        <p>
+
+                        <div data-bind="html: html"></div>
+                        </p>
+                    </div>
+                    <!-- /ko -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

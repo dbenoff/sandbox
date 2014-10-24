@@ -1,0 +1,16 @@
+<div class="page-header">
+    <h1>
+       Welcome<span data-bind="visible: username, text: ' ' + username()"></span>!
+    </h1>
+</div>
+<article class="row">
+    <div class="col-md-7">
+        <p>Welcome to ADOT&PF's Transportation Asset Management Information System Proof of Concept (TAMIS POC). This tool is designed to illustrate the benefits of bringing together data from disparate ADOT&PF data sources to support integrated, spatially referenced queries with the aim of providing more holistic information for improved asset management decisions.</p>
+        <h3>Available Queries</h3>
+        <p>The TAMIS POC includes a number of pre-defined queries, each of which can be further tailored and customized by the user. These questions fall into several categories, as represented by the tabs on the right side of this screen. To familiarize yourself with the available queries, click on the tabs for a brief overview of the questions available in each category.</p>
+        <h3>Another header</h3>
+        <p>More text...</p>
+    </div>
+</article>
+<a class="btn btn-primary" data-bind="visible: hasCookie() == true" href="#/queryconfig">Let's Begin</a>
+<button class="btn btn-primary" data-bind="visible: hasCookie() == false, click: showLoginModal">Let's Begin</button>

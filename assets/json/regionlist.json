@@ -1,0 +1,20 @@
+{
+    "AreaList": [
+        {
+            "Value": "1",
+            "Name": "CENTRAL REGION"
+        },
+        {
+            "Value": "2",
+            "Name": "NORTHERN REGION"
+        },
+        {
+            "Value": "3",
+            "Name": "SOUTHEAST REGION"
+        },
+        {
+            "Value": "4",
+            "Name": "MAJOR INTERIOR HIGHWAY"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+<div id="querydescription">
+    <ul class="nav nav-list">
+        <!-- ko with: querydescription -->
+        <li>Selected query: <span data-bind="text: queryName"/></li>
+        <!-- ko foreach: criteria -->
+        <li><span data-bind="text: name"/>: <span data-bind="text: value"/></li>
+        <!-- /ko -->
+        <!-- /ko -->
+    </ul>
+</div>
